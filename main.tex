@@ -1,0 +1,211 @@
+% Exact LaTeX recreation of the supplied Phase-1.pdf
+% Compile with pdfLaTeX. Place member pictures in the same folder if required.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,left=2.0cm,right=2.0cm,top=1.55cm,bottom=1.55cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{setspace}
+
+\definecolor{TitleBlue}{RGB}{61,103,154}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.0}
+
+\newcommand{\blueheading}[1]{%
+    {\sffamily\color{TitleBlue}\fontsize{15}{18}\selectfont #1}%
+}
+\newcommand{\bluebigheading}[1]{%
+    {\sffamily\bfseries\color{TitleBlue}\fontsize{16}{19}\selectfont #1}%
+}
+\newcommand{\instruction}[1]{%
+    {\itshape\fontsize{10.5}{12.5}\selectfont #1}%
+}
+\newcommand{\answerbox}[2][3.0cm]{%
+    \vspace{2pt}
+    \noindent
+    \fbox{%
+        \begin{minipage}[t][#1][t]{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+            \vspace{1mm}
+            \itshape #2
+        \end{minipage}
+    }
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[L]{%
+    \sffamily\bfseries\itshape\fontsize{10.5}{12}\selectfont
+    Btech CSE (AI and ML & core)
+}
+\fancyhead[R]{%
+    \sffamily\bfseries\fontsize{10.5}{12}\selectfont
+    PROJECT PROPOSAL
+}
+\fancyfoot[R]{%
+    \itshape\fontsize{10}{12}\selectfont
+    Page \thepage
+}
+\setlength{\headheight}{14pt}
+\setlength{\headsep}{23pt}
+\setlength{\footskip}{24pt}
+
+\begin{document}
+
+\vspace*{4mm}
+\bluebigheading{PROJECT AND TEAM INFORMATION}
+\vspace{13mm}
+\blueheading{Project Title}
+\vspace{1mm}
+\instruction{}
+\answerbox[1.0cm]{SkillMatch: Student Skill Exchange \& Project Team Matcher}
+\vspace{13mm}
+\blueheading{Student / Team Information}
+\vspace{2mm}
+
+\noindent
+\begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}p{0.69\textwidth}|>{\RaggedRight\arraybackslash}X|}
+\hline
+\begin{minipage}[t]{\linewidth}
+\vspace{1.5mm}
+\textit{Team Name:}\\[-1mm]
+\textit{Team \#}
+\vspace{1.5mm}
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\vspace{1.5mm}
+\textit{Sigma}
+\vspace{1.5mm}
+\end{minipage}
+\\
+\hline
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textbf{Team member 1 (Team Lead)}\\[-1mm]
+\textit{}
+\vspace{2.0cm}
+\end{minipage}
+&
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textit{Yadav,Shreya -- 2510270007}\\
+\resizebox{\linewidth}{!}{\textit{SHREYAYADAV.2510270007@gehu.ac.in}}
+\vspace{1.5mm}
+\includegraphics[width=3.0cm,height=1.5cm,keepaspectratio]{Shreya.jpeg}
+\end{minipage}
+\\
+\hline
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textbf{Team member 2}\\[-1mm]
+\textit{}
+\vspace{2.0cm}
+\end{minipage}
+&
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textit{Mishra, Shiwansh -- 25101281936}\\
+\resizebox{\linewidth}{!}{\textit{SHIWANSHMISHRA.25101281936@gehu.ac.in}}
+\vspace{2mm}
+\includegraphics[width=3.0cm,height=1.5cm,keepaspectratio]{shiwansh.jpeg}
+\end{minipage}
+\\
+\hline
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textbf{Team member 3}\\[-1mm]
+\textit{}
+\vspace{2.0cm}
+\end{minipage}
+&
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textit{Kundiyal ,Simran  -- 25101281727 }\\
+\resizebox{\linewidth}{!}{\textit{SIMRANKUNDIYAL.25101281727@gehu.ac.in}}
+\vspace{2mm}
+\includegraphics[width=3.0cm,height=1.5cm,keepaspectratio]{shishir.jpeg}
+\end{minipage}
+\\
+\hline
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textbf{Team member 4}\\[-1mm]
+\textit{}
+\vspace{2.0cm}
+\end{minipage}
+&
+\begin{minipage}[t][3.25cm][t]{\linewidth}
+\vspace{1.5mm}
+\textit{Dwivedi, Shishir -- 25101210684}\\
+\resizebox{\linewidth}{!}{\textit{SHISHIRDWIVEDI.25101210684@gehu.ac.in}}
+\vspace{2mm}
+\includegraphics[width=3.0cm,height=1.5cm,keepaspectratio]{Shishir.jpeg}
+\end{minipage}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+\bluebigheading{PROPOSAL DESCRIPTION }
+\vspace{12mm}
+\blueheading{Motivation }
+\vspace{1mm}
+\instruction{}
+\answerbox[3.0cm]{College students often have a hard time finding people to work with on group projects. Projects are often formed from friends, or people who share common interests, however, this does not always meet the skill requirements for the projects. SkillMatch helps students identify potential team members based on skill sets and project requirements, thus facilitating the team finding process.}
+\vspace{12mm}
+\blueheading{State of the Art / Current solution }
+\vspace{1mm}
+\instruction{}
+\answerbox[2.75cm]{Currently, students can form teams with friends and classmates, and also chat with others in their personal contact list, but there is no method of finding students with the most compatible skills, and thus some students may be overlooked SkillMatch offers a new solution to this problem; it allows an organized search and ranking system for students based on skill compatibility.}
+\vspace{12mm}
+\blueheading{Project Goals and Milestones }
+\vspace{1mm}
+\instruction{}
+\answerbox[3.15cm]{Goals: Store the information about students’ skills and project requirements; Search the students list for those with required skills; Calculate and assign scores to matched students; Form teams of students that have complementary skills; Showcase use of Data Structures and Object-Oriented Programming concepts. Milestones: Requirement analysis: System design; Data Structures and OOP implementation; Matching and scoring module development; File handling module development; Testing; Final prototype.}
+\vspace{12mm}
+\blueheading{Project Approach }
+\vspace{1mm}
+\instruction{}
+\instruction{}
+\answerbox[3.05cm]{SkillMatch is proposed to be developed using Data Structures with C and OOP with C++. Data Structures. Hash Table – Fast search of the skills. Graph – For connecting students, skills and projects. Priority Queue – To prioritize matching students. Sorting – To show the best matches first. OOP – Classes and Objects, Encapsulation, Inheritance and Polymorphism, and File Handling.}
+
+\newpage
+\blueheading{}
+\vspace{1mm}
+\instruction{}
+\instruction{}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{final diagram.png}
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
+\vspace{12mm}
+\blueheading{Project Outcome / Deliverables }
+\vspace{1mm}
+\instruction{}
+\answerbox[2.7cm]{The project will deliver a working prototype of SkillMatch system to find compatible teams of students for projects according to their skills. Deliverables: Registration of students’ skills Entering of skills needed for projects Searching of students by skills Calculating of matching scores Formation of teams Use of OOP concepts and File Handling}
+\vspace{12mm}
+\blueheading{Assumptions}
+\vspace{6mm}
+\instruction{}
+\answerbox[2.65cm]{Currently, students can form teams with friends and classmates, and also chat with others in their personal contact list, but there is no method of finding students with the most compatible skills, and thus some students may be overlookedSkillMatch offers a new solution to this problem; it allows an organized search and ranking system for students based on skill compatibility.}
+\vspace{30mm}
+\blueheading{References}
+\vspace{1mm}
+\instruction{}
+\answerbox[2.65cm]{University Course Material, “Data Structures and Algorithms,” course notes and classroom material. University Course Material, “Object-Oriented Programming with C++,” course notes and standard references. University Course Material, “C Programming,” course notes and programming references. C++ documentation, “Classes, inheritance, polymorphism, and file handling,” standard programming references}
+\end{document}
