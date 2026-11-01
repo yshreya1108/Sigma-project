@@ -1,0 +1,830 @@
+Java QUESTION BANK — 100 QUESTIONS
+Bank distribution: 50 Normal MCQs, 25 Output-based MCQs, 25 Fill-in-the-code MCQs.
+Actual test: select 11 Normal MCQs, 3 Output MCQs, and 1 Fill-in-the-code MCQ.
+Test marks: Normal = 1 each; Output = 3 each; Fill-in-the-code = 5. Total = 25. Pass = 15/25 (60%).
+Suggested test time: 20 minutes. Correct answers are included for scoring; hide answer keys from test takers.
+
+Q1 [Normal MCQ; 1 marks if selected in test]
+Which keyword defines a class?
+A. main()
+B. new
+C. class
+D. boolean
+Correct Answer: C
+
+Q2 [Normal MCQ; 1 marks if selected in test]
+What is the standard entry-point method name?
+A. class
+B. new
+C. boolean
+D. main()
+Correct Answer: D
+
+Q3 [Normal MCQ; 1 marks if selected in test]
+Which keyword creates an object?
+A. new
+B. class
+C. main()
+D. boolean
+Correct Answer: A
+
+Q4 [Normal MCQ; 1 marks if selected in test]
+Which primitive type stores true or false?
+A. class
+B. boolean
+C. main()
+D. new
+Correct Answer: B
+
+Q5 [Normal MCQ; 1 marks if selected in test]
+Which keyword inherits a class?
+A. class
+B. main()
+C. extends
+D. new
+Correct Answer: C
+
+Q6 [Normal MCQ; 1 marks if selected in test]
+Which keyword implements an interface?
+A. class
+B. main()
+C. new
+D. implements
+Correct Answer: D
+
+Q7 [Normal MCQ; 1 marks if selected in test]
+Which access modifier allows broad access?
+A. public
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q8 [Normal MCQ; 1 marks if selected in test]
+Which modifier restricts access to the declaring class?
+A. class
+B. private
+C. main()
+D. new
+Correct Answer: B
+
+Q9 [Normal MCQ; 1 marks if selected in test]
+Which keyword refers to the current object?
+A. class
+B. main()
+C. this
+D. new
+Correct Answer: C
+
+Q10 [Normal MCQ; 1 marks if selected in test]
+Which keyword refers to the parent class?
+A. class
+B. main()
+C. new
+D. super
+Correct Answer: D
+
+Q11 [Normal MCQ; 1 marks if selected in test]
+Which method compares String contents?
+A. equals()
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q12 [Normal MCQ; 1 marks if selected in test]
+Which operator compares primitive values for equality?
+A. class
+B. ==
+C. main()
+D. new
+Correct Answer: B
+
+Q13 [Normal MCQ; 1 marks if selected in test]
+Which package is automatically imported for basic classes?
+A. class
+B. main()
+C. java.lang
+D. new
+Correct Answer: C
+
+Q14 [Normal MCQ; 1 marks if selected in test]
+Which statement prints and moves to a new line?
+A. class
+B. main()
+C. new
+D. System.out.println()
+Correct Answer: D
+
+Q15 [Normal MCQ; 1 marks if selected in test]
+Which type stores whole numbers like 10?
+A. int
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q16 [Normal MCQ; 1 marks if selected in test]
+Which primitive type stores one character?
+A. class
+B. char
+C. main()
+D. new
+Correct Answer: B
+
+Q17 [Normal MCQ; 1 marks if selected in test]
+Which keyword prevents reassignment?
+A. class
+B. main()
+C. final
+D. new
+Correct Answer: C
+
+Q18 [Normal MCQ; 1 marks if selected in test]
+Which keyword handles an exception?
+A. class
+B. main()
+C. new
+D. catch
+Correct Answer: D
+
+Q19 [Normal MCQ; 1 marks if selected in test]
+Which keyword begins a try block?
+A. try
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q20 [Normal MCQ; 1 marks if selected in test]
+Which keyword explicitly throws an exception?
+A. class
+B. throw
+C. main()
+D. new
+Correct Answer: B
+
+Q21 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares exceptions a method may pass to its caller?
+A. class
+B. main()
+C. throws
+D. new
+Correct Answer: C
+
+Q22 [Normal MCQ; 1 marks if selected in test]
+Which loop executes at least once?
+A. class
+B. main()
+C. new
+D. do-while
+Correct Answer: D
+
+Q23 [Normal MCQ; 1 marks if selected in test]
+Which collection stores unique elements?
+A. Set
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q24 [Normal MCQ; 1 marks if selected in test]
+Which class is a resizable implementation of List?
+A. class
+B. ArrayList
+C. main()
+D. new
+Correct Answer: B
+
+Q25 [Normal MCQ; 1 marks if selected in test]
+Which interface represents key-value mappings?
+A. class
+B. main()
+C. Map
+D. new
+Correct Answer: C
+
+Q26 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares a class-level member?
+A. class
+B. main()
+C. new
+D. static
+Correct Answer: D
+
+Q27 [Normal MCQ; 1 marks if selected in test]
+Which keyword marks a method without implementation in an abstract class?
+A. abstract
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q28 [Normal MCQ; 1 marks if selected in test]
+Which keyword prevents a class from being subclassed?
+A. class
+B. final
+C. main()
+D. new
+Correct Answer: B
+
+Q29 [Normal MCQ; 1 marks if selected in test]
+What is the common Java main signature?
+A. class
+B. main()
+C. public static void main(String[] args)
+D. new
+Correct Answer: C
+
+Q30 [Normal MCQ; 1 marks if selected in test]
+Which operator performs short-circuit logical AND?
+A. class
+B. main()
+C. new
+D. &&
+Correct Answer: D
+
+Q31 [Normal MCQ; 1 marks if selected in test]
+Which operator performs short-circuit logical OR?
+A. ||
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q32 [Normal MCQ; 1 marks if selected in test]
+Which keyword skips a loop iteration?
+A. class
+B. continue
+C. main()
+D. new
+Correct Answer: B
+
+Q33 [Normal MCQ; 1 marks if selected in test]
+Which keyword exits a loop?
+A. class
+B. main()
+C. break
+D. new
+Correct Answer: C
+
+Q34 [Normal MCQ; 1 marks if selected in test]
+Which keyword returns a value from a method?
+A. class
+B. main()
+C. new
+D. return
+Correct Answer: D
+
+Q35 [Normal MCQ; 1 marks if selected in test]
+Which type stores text objects?
+A. String
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q36 [Normal MCQ; 1 marks if selected in test]
+Which array property gives element count?
+A. class
+B. length
+C. main()
+D. new
+Correct Answer: B
+
+Q37 [Normal MCQ; 1 marks if selected in test]
+Which method gives String character count?
+A. class
+B. main()
+C. length()
+D. new
+Correct Answer: C
+
+Q38 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares an interface?
+A. class
+B. main()
+C. new
+D. interface
+Correct Answer: D
+
+Q39 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares a package?
+A. package
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q40 [Normal MCQ; 1 marks if selected in test]
+Which keyword imports a type?
+A. class
+B. import
+C. main()
+D. new
+Correct Answer: B
+
+Q41 [Normal MCQ; 1 marks if selected in test]
+Which primitive type stores a 64-bit floating-point value?
+A. class
+B. main()
+C. double
+D. new
+Correct Answer: C
+
+Q42 [Normal MCQ; 1 marks if selected in test]
+Which primitive type stores a 32-bit floating-point value?
+A. class
+B. main()
+C. new
+D. float
+Correct Answer: D
+
+Q43 [Normal MCQ; 1 marks if selected in test]
+Which call invokes the parent constructor?
+A. super()
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q44 [Normal MCQ; 1 marks if selected in test]
+Which method converts numeric text to int?
+A. class
+B. Integer.parseInt()
+C. main()
+D. new
+Correct Answer: B
+
+Q45 [Normal MCQ; 1 marks if selected in test]
+Which class provides pseudorandom values in java.util?
+A. class
+B. main()
+C. Random
+D. new
+Correct Answer: C
+
+Q46 [Normal MCQ; 1 marks if selected in test]
+Which comment marker starts a single-line comment?
+A. class
+B. main()
+C. new
+D. //
+Correct Answer: D
+
+Q47 [Normal MCQ; 1 marks if selected in test]
+Which keyword creates a constant-like field?
+A. final
+B. class
+C. main()
+D. new
+Correct Answer: A
+
+Q48 [Normal MCQ; 1 marks if selected in test]
+Which method commonly converts an object to text?
+A. class
+B. toString()
+C. main()
+D. new
+Correct Answer: B
+
+Q49 [Normal MCQ; 1 marks if selected in test]
+Which operator means logical NOT?
+A. class
+B. main()
+C. !
+D. new
+Correct Answer: C
+
+Q50 [Normal MCQ; 1 marks if selected in test]
+Which collection interface represents an ordered sequence?
+A. class
+B. main()
+C. new
+D. List
+Correct Answer: D
+
+Q51 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(2 + 3);
+A. 5
+B. 23
+C. 6
+D. Error
+Correct Answer: A
+
+Q52 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(2 + 3 * 4);
+A. 20
+B. 14
+C. 24
+D. 10
+Correct Answer: B
+
+Q53 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(10 % 3);
+A. 3
+B. 0
+C. 1
+D. 10
+Correct Answer: C
+
+Q54 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=7; System.out.println(x/2);
+A. 3.5
+B. 4
+C. 2
+D. 3
+Correct Answer: D
+
+Q55 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=4; System.out.println(x++);
+A. 4
+B. 5
+C. 3
+D. Error
+Correct Answer: A
+
+Q56 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=4; System.out.println(++x);
+A. 4
+B. 5
+C. 6
+D. Error
+Correct Answer: B
+
+Q57 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int[] a={2,4,6}; System.out.println(a[1]);
+A. 2
+B. 6
+C. 4
+D. 1
+Correct Answer: C
+
+Q58 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(5>2);
+A. false
+B. 1
+C. 0
+D. true
+Correct Answer: D
+
+Q59 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+for(int i=0;i<3;i++) System.out.print(i);
+A. 012
+B. 123
+C. 0123
+D. 321
+Correct Answer: A
+
+Q60 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=5; x+=2; System.out.println(x);
+A. 5
+B. 7
+C. 10
+D. Error
+Correct Answer: B
+
+Q61 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(3 == 3.0);
+A. false
+B. 3.0
+C. true
+D. Error
+Correct Answer: C
+
+Q62 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+String s="Hi"+"!"; System.out.println(s);
+A. Hi !
+B. Error
+C. H!
+D. Hi!
+Correct Answer: D
+
+Q63 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(8/3);
+A. 2
+B. 2.66
+C. 3
+D. Error
+Correct Answer: A
+
+Q64 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(true && false);
+A. true
+B. false
+C. 1
+D. Error
+Correct Answer: B
+
+Q65 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+String s="CODE"; System.out.println(s.charAt(1));
+A. C
+B. D
+C. O
+D. 0
+Correct Answer: C
+
+Q66 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=10; System.out.println(x>5?1:0);
+A. 10
+B. 5
+C. 0
+D. 1
+Correct Answer: D
+
+Q67 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(2*3+1);
+A. 7
+B. 8
+C. 9
+D. 6
+Correct Answer: A
+
+Q68 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int a=1,b=2; System.out.println(a+b);
+A. 12
+B. 3
+C. 2
+D. Error
+Correct Answer: B
+
+Q69 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(5 != 5);
+A. true
+B. 5
+C. false
+D. Error
+Correct Answer: C
+
+Q70 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+for(char c='A';c<'C';c++) System.out.print(c);
+A. ABC
+B. BC
+C. AA
+D. AB
+Correct Answer: D
+
+Q71 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(9%4);
+A. 1
+B. 2
+C. 3
+D. 4
+Correct Answer: A
+
+Q72 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=3; if(x>2) System.out.print("Yes"); else System.out.print("No");
+A. No
+B. Yes
+C. 3
+D. Error
+Correct Answer: B
+
+Q73 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println((int)3.9);
+A. 3.9
+B. 4
+C. 3
+D. Error
+Correct Answer: C
+
+Q74 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println("A"+1+2);
+A. A3
+B. 3A
+C. Error
+D. A12
+Correct Answer: D
+
+Q75 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+System.out.println(false || true);
+A. true
+B. false
+C. 1
+D. Error
+Correct Answer: A
+
+Q76 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: System.out._____ ("Hello");
+A. write
+B. println
+C. display
+D. printline
+Correct Answer: B
+
+Q77 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ Student { }
+A. object
+B. struct
+C. class
+D. define
+Correct Answer: C
+
+Q78 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: Student s = _____ Student();
+A. make
+B. create
+C. object
+D. new
+Correct Answer: D
+
+Q79 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: class Dog _____ Animal { }
+A. extends
+B. inherits
+C. implements
+D. super
+Correct Answer: A
+
+Q80 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: class Task _____ Runnable { }
+A. extends
+B. implements
+C. inherits
+D. uses
+Correct Answer: B
+
+Q81 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____.name refers to current object member
+A. self
+B. current
+C. this
+D. me
+Correct Answer: C
+
+Q82 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____(); calls parent constructor
+A. parent
+B. base
+C. this.super
+D. super
+Correct Answer: D
+
+Q83 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ active = true;
+A. boolean
+B. bool
+C. bit
+D. logical
+Correct Answer: A
+
+Q84 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ int MAX = 10;
+A. const
+B. final
+C. fixed
+D. staticonly
+Correct Answer: B
+
+Q85 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ { risky(); } catch(Exception e) { }
+A. check
+B. throw
+C. try
+D. except
+Correct Answer: C
+
+Q86 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ new Exception();
+A. raise
+B. throws
+C. catch
+D. throw
+Correct Answer: D
+
+Q87 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: public _____ greet() declares no return value
+A. void
+B. empty
+C. null
+D. none
+Correct Answer: A
+
+Q88 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ java.util.ArrayList;
+A. include
+B. import
+C. using
+D. package
+Correct Answer: B
+
+Q89 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: arr._____ gives array element count
+A. size()
+B. count
+C. length
+D. length()
+Correct Answer: C
+
+Q90 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: text._____ gives String character count
+A. size()
+B. count
+C. strlen()
+D. length()
+Correct Answer: D
+
+Q91 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____; skips an iteration
+A. continue
+B. skip
+C. break
+D. pass
+Correct Answer: A
+
+Q92 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____; exits a loop
+A. stop
+B. break
+C. continue
+D. pass
+Correct Answer: B
+
+Q93 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ total; returns a value
+A. give
+B. send
+C. return
+D. yield
+Correct Answer: C
+
+Q94 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ comment starts a single-line comment
+A. #
+B. <!--
+C. **
+D. //
+Correct Answer: D
+
+Q95 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: Integer._____(s) converts String s to int
+A. parseInt
+B. toInt
+C. convert
+D. value
+Correct Answer: A
+
+Q96 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: int[] a = new int[_____];
+A. five
+B. 5
+C. (5)
+D. size=5
+Correct Answer: B
+
+Q97 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: Math._____(4,9) returns the larger value
+A. maximum
+B. largest
+C. max
+D. top
+Correct Answer: C
+
+Q98 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ void greet() declares a class-level method
+A. shared
+B. global
+C. class
+D. static
+Correct Answer: D
+
+Q99 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ Flyable { } declares an interface
+A. interface
+B. class
+C. implements
+D. protocol
+Correct Answer: A
+
+Q100 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: if(a>0 _____ b>0)
+A. &
+B. &&
+C. and
+D. AND
+Correct Answer: B

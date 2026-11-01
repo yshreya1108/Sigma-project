@@ -1,0 +1,830 @@
+C QUESTION BANK — 100 QUESTIONS
+Bank distribution: 50 Normal MCQs, 25 Output-based MCQs, 25 Fill-in-the-code MCQs.
+Actual test: select 11 Normal MCQs, 3 Output MCQs, and 1 Fill-in-the-code MCQ.
+Test marks: Normal = 1 each; Output = 3 each; Fill-in-the-code = 5. Total = 25. Pass = 15/25 (60%).
+Suggested test time: 20 minutes. Correct answers are included for scoring; hide answer keys from test takers.
+
+Q1 [Normal MCQ; 1 marks if selected in test]
+Which header declares printf and scanf?
+A. <stdlib.h>
+B. <string.h>
+C. <stdio.h>
+D. <math.h>
+Correct Answer: C
+
+Q2 [Normal MCQ; 1 marks if selected in test]
+What is the usual entry-point function?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. main()
+Correct Answer: D
+
+Q3 [Normal MCQ; 1 marks if selected in test]
+Which symbol ends most statements?
+A. ;
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q4 [Normal MCQ; 1 marks if selected in test]
+Which format specifier prints an int?
+A. <stdlib.h>
+B. %d
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q5 [Normal MCQ; 1 marks if selected in test]
+Which format specifier prints a char?
+A. <stdlib.h>
+B. <string.h>
+C. %c
+D. <math.h>
+Correct Answer: C
+
+Q6 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares an integer?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. int
+Correct Answer: D
+
+Q7 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares a character variable?
+A. char
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q8 [Normal MCQ; 1 marks if selected in test]
+Which operator checks equality?
+A. <stdlib.h>
+B. ==
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q9 [Normal MCQ; 1 marks if selected in test]
+Which operator gives a remainder?
+A. <stdlib.h>
+B. <string.h>
+C. %
+D. <math.h>
+Correct Answer: C
+
+Q10 [Normal MCQ; 1 marks if selected in test]
+Which loop runs its body at least once?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. do-while
+Correct Answer: D
+
+Q11 [Normal MCQ; 1 marks if selected in test]
+Which statement exits a loop?
+A. break
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q12 [Normal MCQ; 1 marks if selected in test]
+Which statement skips to the next iteration?
+A. <stdlib.h>
+B. continue
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q13 [Normal MCQ; 1 marks if selected in test]
+Which keyword returns from a function?
+A. <stdlib.h>
+B. <string.h>
+C. return
+D. <math.h>
+Correct Answer: C
+
+Q14 [Normal MCQ; 1 marks if selected in test]
+Which operator obtains a variable address?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. &
+Correct Answer: D
+
+Q15 [Normal MCQ; 1 marks if selected in test]
+Which operator dereferences a pointer?
+A. *
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q16 [Normal MCQ; 1 marks if selected in test]
+What is the first array index?
+A. <stdlib.h>
+B. 0
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q17 [Normal MCQ; 1 marks if selected in test]
+Which character terminates a C string?
+A. <stdlib.h>
+B. <string.h>
+C. \0
+D. <math.h>
+Correct Answer: C
+
+Q18 [Normal MCQ; 1 marks if selected in test]
+Which function compares strings?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. strcmp()
+Correct Answer: D
+
+Q19 [Normal MCQ; 1 marks if selected in test]
+Which function gets string length?
+A. strlen()
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q20 [Normal MCQ; 1 marks if selected in test]
+Which header declares malloc?
+A. <string.h>
+B. <stdlib.h>
+C. <math.h>
+D. printf()
+Correct Answer: B
+
+Q21 [Normal MCQ; 1 marks if selected in test]
+Which function allocates dynamic memory?
+A. <stdlib.h>
+B. <string.h>
+C. malloc()
+D. <math.h>
+Correct Answer: C
+
+Q22 [Normal MCQ; 1 marks if selected in test]
+Which function frees malloc memory?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. free()
+Correct Answer: D
+
+Q23 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares a read-only identifier?
+A. const
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q24 [Normal MCQ; 1 marks if selected in test]
+Which directive includes a header?
+A. <stdlib.h>
+B. #include
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q25 [Normal MCQ; 1 marks if selected in test]
+Which function reads formatted input?
+A. <stdlib.h>
+B. <string.h>
+C. scanf()
+D. <math.h>
+Correct Answer: C
+
+Q26 [Normal MCQ; 1 marks if selected in test]
+Which function prints a string with newline?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. puts()
+Correct Answer: D
+
+Q27 [Normal MCQ; 1 marks if selected in test]
+Which statement selects among cases?
+A. switch
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q28 [Normal MCQ; 1 marks if selected in test]
+Which label is used for the fallback switch branch?
+A. <stdlib.h>
+B. default
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q29 [Normal MCQ; 1 marks if selected in test]
+Which storage class preserves a local value between calls?
+A. <stdlib.h>
+B. <string.h>
+C. static
+D. <math.h>
+Correct Answer: C
+
+Q30 [Normal MCQ; 1 marks if selected in test]
+Which function opens a file?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. fopen()
+Correct Answer: D
+
+Q31 [Normal MCQ; 1 marks if selected in test]
+Which function closes a file?
+A. fclose()
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q32 [Normal MCQ; 1 marks if selected in test]
+Which fopen mode opens for reading?
+A. <stdlib.h>
+B. "r"
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q33 [Normal MCQ; 1 marks if selected in test]
+Which operator accesses a struct member through a variable?
+A. <stdlib.h>
+B. <string.h>
+C. .
+D. <math.h>
+Correct Answer: C
+
+Q34 [Normal MCQ; 1 marks if selected in test]
+Which keyword defines a structure?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. struct
+Correct Answer: D
+
+Q35 [Normal MCQ; 1 marks if selected in test]
+Which keyword creates a type alias?
+A. typedef
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q36 [Normal MCQ; 1 marks if selected in test]
+Which header declares sqrt()?
+A. <stdlib.h>
+B. <math.h>
+C. <string.h>
+D. printf()
+Correct Answer: B
+
+Q37 [Normal MCQ; 1 marks if selected in test]
+What does sizeof report?
+A. <stdlib.h>
+B. <string.h>
+C. Size in bytes
+D. <math.h>
+Correct Answer: C
+
+Q38 [Normal MCQ; 1 marks if selected in test]
+Which operator is logical AND?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. &&
+Correct Answer: D
+
+Q39 [Normal MCQ; 1 marks if selected in test]
+Which operator is logical OR?
+A. ||
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q40 [Normal MCQ; 1 marks if selected in test]
+Which type means a function returns no value?
+A. <stdlib.h>
+B. void
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q41 [Normal MCQ; 1 marks if selected in test]
+What does a pointer store?
+A. <stdlib.h>
+B. <string.h>
+C. A memory address
+D. <math.h>
+Correct Answer: C
+
+Q42 [Normal MCQ; 1 marks if selected in test]
+Which function converts a numeric string to int?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. atoi()
+Correct Answer: D
+
+Q43 [Normal MCQ; 1 marks if selected in test]
+Which keyword can make an integer unsigned?
+A. unsigned
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q44 [Normal MCQ; 1 marks if selected in test]
+Which function compares characters in a string?
+A. <stdlib.h>
+B. strcmp()
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q45 [Normal MCQ; 1 marks if selected in test]
+Which loop is commonly used for counted repetition?
+A. <stdlib.h>
+B. <string.h>
+C. for
+D. <math.h>
+Correct Answer: C
+
+Q46 [Normal MCQ; 1 marks if selected in test]
+Which statement tests a condition?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. if
+Correct Answer: D
+
+Q47 [Normal MCQ; 1 marks if selected in test]
+Which operator means logical NOT?
+A. !
+B. <stdlib.h>
+C. <string.h>
+D. <math.h>
+Correct Answer: A
+
+Q48 [Normal MCQ; 1 marks if selected in test]
+Which preprocessor directive defines a macro?
+A. <stdlib.h>
+B. #define
+C. <string.h>
+D. <math.h>
+Correct Answer: B
+
+Q49 [Normal MCQ; 1 marks if selected in test]
+Which function reads one character from a file stream?
+A. <stdlib.h>
+B. <string.h>
+C. fgetc()
+D. <math.h>
+Correct Answer: C
+
+Q50 [Normal MCQ; 1 marks if selected in test]
+Which function writes formatted output to a file?
+A. <stdlib.h>
+B. <string.h>
+C. <math.h>
+D. fprintf()
+Correct Answer: D
+
+Q51 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d", 2 + 3);
+A. 5
+B. 23
+C. 6
+D. Error
+Correct Answer: A
+
+Q52 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d", 2 + 3 * 4);
+A. 20
+B. 14
+C. 24
+D. 10
+Correct Answer: B
+
+Q53 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d", 10 % 3);
+A. 3
+B. 0
+C. 1
+D. 10
+Correct Answer: C
+
+Q54 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=7; printf("%d",x/2);
+A. 3.5
+B. 4
+C. 2
+D. 3
+Correct Answer: D
+
+Q55 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=4; printf("%d",x++);
+A. 4
+B. 5
+C. 3
+D. Error
+Correct Answer: A
+
+Q56 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=4; ++x; printf("%d",x);
+A. 4
+B. 5
+C. 6
+D. Error
+Correct Answer: B
+
+Q57 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int a[]={2,4,6}; printf("%d",a[1]);
+A. 2
+B. 6
+C. 4
+D. 1
+Correct Answer: C
+
+Q58 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d",5>2);
+A. 0
+B. true
+C. false
+D. 1
+Correct Answer: D
+
+Q59 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+for(int i=0;i<3;i++) printf("%d",i);
+A. 012
+B. 123
+C. 0123
+D. 321
+Correct Answer: A
+
+Q60 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=5; x+=2; printf("%d",x);
+A. 5
+B. 7
+C. 10
+D. Error
+Correct Answer: B
+
+Q61 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%c",'A' + 1);
+A. A
+B. 66
+C. B
+D. Error
+Correct Answer: C
+
+Q62 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=9; printf("%d",x%2);
+A. 0
+B. 2
+C. 9
+D. 1
+Correct Answer: D
+
+Q63 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+char s[]="CAT"; printf("%c",s[0]);
+A. C
+B. A
+C. T
+D. 0
+Correct Answer: A
+
+Q64 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=3; if(x>2) printf("Yes"); else printf("No");
+A. No
+B. Yes
+C. 3
+D. Error
+Correct Answer: B
+
+Q65 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d",(int)3.9);
+A. 3.9
+B. 4
+C. 3
+D. Error
+Correct Answer: C
+
+Q66 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int i=1; while(i<4){printf("%d",i);i++;}
+A. 012
+B. 234
+C. 1234
+D. 123
+Correct Answer: D
+
+Q67 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d",8/3);
+A. 2
+B. 2.66
+C. 3
+D. Error
+Correct Answer: A
+
+Q68 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+char c='Z'; printf("%c",c);
+A. c
+B. Z
+C. 90
+D. Error
+Correct Answer: B
+
+Q69 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int a=1,b=2; printf("%d",a+b);
+A. 12
+B. 2
+C. 3
+D. Error
+Correct Answer: C
+
+Q70 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d",!0);
+A. 0
+B. -1
+C. Error
+D. 1
+Correct Answer: D
+
+Q71 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=5; printf("%d",x==5);
+A. 1
+B. 5
+C. 0
+D. true
+Correct Answer: A
+
+Q72 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int a[]={1,2,3}; printf("%d",*(a+2));
+A. 1
+B. 3
+C. 2
+D. Address
+Correct Answer: B
+
+Q73 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+for(int i=3;i>0;i--) printf("%d",i);
+A. 123
+B. 012
+C. 321
+D. 333
+Correct Answer: C
+
+Q74 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+printf("%d",4 && 0);
+A. 4
+B. 1
+C. Error
+D. 0
+Correct Answer: D
+
+Q75 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=10; printf("%d",x>5?1:0);
+A. 1
+B. 10
+C. 5
+D. 0
+Correct Answer: A
+
+Q76 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: printf("____", x); to print an integer
+A. %c
+B. %d
+C. %s
+D. %f
+Correct Answer: B
+
+Q77 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: scanf("%d", _____);
+A. x
+B. *x
+C. &x
+D. &&x
+Correct Answer: C
+
+Q78 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ age = 20;
+A. integer
+B. num
+C. var
+D. int
+Correct Answer: D
+
+Q79 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: int _____(void) {
+A. main
+B. start
+C. run
+D. begin
+Correct Answer: A
+
+Q80 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ <stdio.h>
+A. #import
+B. #include
+C. using
+D. include
+Correct Answer: B
+
+Q81 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: if (a _____ b) to compare equality
+A. =
+B. ===
+C. ==
+D. equals
+Correct Answer: C
+
+Q82 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: a[_____] accesses the first array item
+A. 1
+B. first
+C. -0.5
+D. 0
+Correct Answer: D
+
+Q83 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: int x = 5_____
+A. ;
+B. .
+C. :
+D. ,
+Correct Answer: A
+
+Q84 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ grade = 'A';
+A. string
+B. char
+C. character
+D. text
+Correct Answer: B
+
+Q85 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ (i < 5)
+A. repeat
+B. loop
+C. while
+D. foreach
+Correct Answer: C
+
+Q86 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____; exits a loop
+A. stop
+B. continue
+C. pass
+D. break
+Correct Answer: D
+
+Q87 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____; skips to next iteration
+A. continue
+B. break
+C. return
+D. skip
+Correct Answer: A
+
+Q88 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: p = (int*)_____(n * sizeof(int));
+A. new
+B. malloc
+C. alloc
+D. memory
+Correct Answer: B
+
+Q89 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____(p); releases allocated memory
+A. delete
+B. release
+C. free
+D. clear
+Correct Answer: C
+
+Q90 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____(s1,s2) compares C strings
+A. strcompare
+B. compare
+C. stringcmp
+D. strcmp
+Correct Answer: D
+
+Q91 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____(text) finds string length
+A. strlen
+B. strlength
+C. length
+D. sizeofstr
+Correct Answer: A
+
+Q92 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ Student { int id; };
+A. class
+B. struct
+C. record
+D. object
+Correct Answer: B
+
+Q93 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ int LIMIT = 10;
+A. fixed
+B. staticconst
+C. const
+D. constant
+Correct Answer: C
+
+Q94 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: return _____; returns success from main
+A. true
+B. void
+C. end
+D. 0
+Correct Answer: D
+
+Q95 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: if(a>0 _____ b>0)
+A. &&
+B. &
+C. and
+D. AND
+Correct Answer: A
+
+Q96 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: fopen("a.txt","_____") for reading
+A. w
+B. r
+C. a
+D. x
+Correct Answer: B
+
+Q97 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____(fp); closes a file
+A. close
+B. fileclose
+C. fclose
+D. end
+Correct Answer: C
+
+Q98 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ PI 3.14 defines a macro
+A. #const
+B. macro
+C. define
+D. #define
+Correct Answer: D
+
+Q99 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ display(void) means no return value
+A. void
+B. null
+C. empty
+D. none
+Correct Answer: A
+
+Q100 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: p_____id accesses struct member through pointer
+A. .
+B. ->
+C. ::
+D. :
+Correct Answer: B

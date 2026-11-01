@@ -1,0 +1,830 @@
+C++ QUESTION BANK — 100 QUESTIONS
+Bank distribution: 50 Normal MCQs, 25 Output-based MCQs, 25 Fill-in-the-code MCQs.
+Actual test: select 11 Normal MCQs, 3 Output MCQs, and 1 Fill-in-the-code MCQ.
+Test marks: Normal = 1 each; Output = 3 each; Fill-in-the-code = 5. Total = 25. Pass = 15/25 (60%).
+Suggested test time: 20 minutes. Correct answers are included for scoring; hide answer keys from test takers.
+
+Q1 [Normal MCQ; 1 marks if selected in test]
+Which header commonly provides cout and cin?
+A. <string>
+B. <vector>
+C. <iostream>
+D. <map>
+Correct Answer: C
+
+Q2 [Normal MCQ; 1 marks if selected in test]
+Which operator sends output to cout?
+A. <iostream>
+B. <string>
+C. <vector>
+D. <<
+Correct Answer: D
+
+Q3 [Normal MCQ; 1 marks if selected in test]
+Which operator reads input with cin?
+A. >>
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q4 [Normal MCQ; 1 marks if selected in test]
+Which keyword defines a class?
+A. <iostream>
+B. class
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q5 [Normal MCQ; 1 marks if selected in test]
+What is the default access in a class?
+A. <iostream>
+B. <string>
+C. private
+D. <vector>
+Correct Answer: C
+
+Q6 [Normal MCQ; 1 marks if selected in test]
+What is the default access in a struct?
+A. <iostream>
+B. <string>
+C. <vector>
+D. public
+Correct Answer: D
+
+Q7 [Normal MCQ; 1 marks if selected in test]
+Which access specifier allows public access?
+A. public
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q8 [Normal MCQ; 1 marks if selected in test]
+Which special member has the class name and no return type?
+A. <iostream>
+B. Constructor
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q9 [Normal MCQ; 1 marks if selected in test]
+Which symbol begins a destructor name?
+A. <iostream>
+B. <string>
+C. ~
+D. <vector>
+Correct Answer: C
+
+Q10 [Normal MCQ; 1 marks if selected in test]
+Which keyword declares a friend function?
+A. <iostream>
+B. <string>
+C. <vector>
+D. friend
+Correct Answer: D
+
+Q11 [Normal MCQ; 1 marks if selected in test]
+Which concept bundles data and methods?
+A. Encapsulation
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q12 [Normal MCQ; 1 marks if selected in test]
+Which concept derives a class from another?
+A. <iostream>
+B. Inheritance
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q13 [Normal MCQ; 1 marks if selected in test]
+Which concept allows one interface to take multiple forms?
+A. <iostream>
+B. <string>
+C. Polymorphism
+D. <vector>
+Correct Answer: C
+
+Q14 [Normal MCQ; 1 marks if selected in test]
+Which operator accesses a member through an object?
+A. <iostream>
+B. <string>
+C. <vector>
+D. .
+Correct Answer: D
+
+Q15 [Normal MCQ; 1 marks if selected in test]
+Which operator accesses a member through an object pointer?
+A. ->
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q16 [Normal MCQ; 1 marks if selected in test]
+Which keyword refers to the current object?
+A. <iostream>
+B. this
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q17 [Normal MCQ; 1 marks if selected in test]
+Which keyword allocates an object dynamically?
+A. <iostream>
+B. <string>
+C. new
+D. <vector>
+Correct Answer: C
+
+Q18 [Normal MCQ; 1 marks if selected in test]
+Which keyword releases memory allocated by new?
+A. <iostream>
+B. <string>
+C. <vector>
+D. delete
+Correct Answer: D
+
+Q19 [Normal MCQ; 1 marks if selected in test]
+Which keyword marks a read-only member/function qualifier?
+A. const
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q20 [Normal MCQ; 1 marks if selected in test]
+Which keyword enables runtime polymorphism for a function?
+A. <iostream>
+B. virtual
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q21 [Normal MCQ; 1 marks if selected in test]
+Which keyword marks an overriding function?
+A. <iostream>
+B. <string>
+C. override
+D. <vector>
+Correct Answer: C
+
+Q22 [Normal MCQ; 1 marks if selected in test]
+Which header provides std::string?
+A. <iostream>
+B. <vector>
+C. <map>
+D. <string>
+Correct Answer: D
+
+Q23 [Normal MCQ; 1 marks if selected in test]
+Which namespace contains cout and cin?
+A. std
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q24 [Normal MCQ; 1 marks if selected in test]
+Which operator is scope resolution?
+A. <iostream>
+B. ::
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q25 [Normal MCQ; 1 marks if selected in test]
+Same function name with different parameter lists is called?
+A. <iostream>
+B. <string>
+C. Overloading
+D. <vector>
+Correct Answer: C
+
+Q26 [Normal MCQ; 1 marks if selected in test]
+What is the standard program entry point?
+A. <iostream>
+B. <string>
+C. <vector>
+D. int main()
+Correct Answer: D
+
+Q27 [Normal MCQ; 1 marks if selected in test]
+Which keyword introduces a template?
+A. template
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q28 [Normal MCQ; 1 marks if selected in test]
+Which standard container stores unique sorted keys?
+A. <iostream>
+B. set
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q29 [Normal MCQ; 1 marks if selected in test]
+Which container is a dynamic array?
+A. <iostream>
+B. <string>
+C. vector
+D. <vector>
+Correct Answer: C
+
+Q30 [Normal MCQ; 1 marks if selected in test]
+Which header declares std::vector?
+A. <iostream>
+B. <string>
+C. <map>
+D. <vector>
+Correct Answer: D
+
+Q31 [Normal MCQ; 1 marks if selected in test]
+Which loop runs at least once?
+A. do-while
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q32 [Normal MCQ; 1 marks if selected in test]
+Which statement exits a loop?
+A. <iostream>
+B. break
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q33 [Normal MCQ; 1 marks if selected in test]
+Which statement skips an iteration?
+A. <iostream>
+B. <string>
+C. continue
+D. <vector>
+Correct Answer: C
+
+Q34 [Normal MCQ; 1 marks if selected in test]
+Which keyword handles an exception?
+A. <iostream>
+B. <string>
+C. <vector>
+D. catch
+Correct Answer: D
+
+Q35 [Normal MCQ; 1 marks if selected in test]
+Which keyword starts an exception-handling block?
+A. try
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q36 [Normal MCQ; 1 marks if selected in test]
+Which keyword throws an exception?
+A. <iostream>
+B. throw
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q37 [Normal MCQ; 1 marks if selected in test]
+Which symbol ends most statements?
+A. <iostream>
+B. <string>
+C. ;
+D. <vector>
+Correct Answer: C
+
+Q38 [Normal MCQ; 1 marks if selected in test]
+Which type represents a text string?
+A. <iostream>
+B. <string>
+C. <vector>
+D. std::string
+Correct Answer: D
+
+Q39 [Normal MCQ; 1 marks if selected in test]
+Which type stores true or false?
+A. bool
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q40 [Normal MCQ; 1 marks if selected in test]
+Which keyword prevents class inheritance?
+A. <iostream>
+B. final
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q41 [Normal MCQ; 1 marks if selected in test]
+Which keyword can make a class member shared by all objects?
+A. <iostream>
+B. <string>
+C. static
+D. <vector>
+Correct Answer: C
+
+Q42 [Normal MCQ; 1 marks if selected in test]
+Which member runs when an object is destroyed?
+A. <iostream>
+B. <string>
+C. <vector>
+D. Destructor
+Correct Answer: D
+
+Q43 [Normal MCQ; 1 marks if selected in test]
+Which header declares std::sort?
+A. <algorithm>
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q44 [Normal MCQ; 1 marks if selected in test]
+Which header declares std::map?
+A. <iostream>
+B. <map>
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q45 [Normal MCQ; 1 marks if selected in test]
+Which header declares std::queue?
+A. <iostream>
+B. <string>
+C. <queue>
+D. <vector>
+Correct Answer: C
+
+Q46 [Normal MCQ; 1 marks if selected in test]
+A virtual function assigned = 0 is called?
+A. <iostream>
+B. <string>
+C. <vector>
+D. Pure virtual function
+Correct Answer: D
+
+Q47 [Normal MCQ; 1 marks if selected in test]
+Hiding implementation details is called?
+A. Abstraction
+B. <iostream>
+C. <string>
+D. <vector>
+Correct Answer: A
+
+Q48 [Normal MCQ; 1 marks if selected in test]
+Which symbol begins a single-line comment?
+A. <iostream>
+B. //
+C. <string>
+D. <vector>
+Correct Answer: B
+
+Q49 [Normal MCQ; 1 marks if selected in test]
+Which operator obtains an object's address?
+A. <iostream>
+B. <string>
+C. &
+D. <vector>
+Correct Answer: C
+
+Q50 [Normal MCQ; 1 marks if selected in test]
+Which header provides std::set?
+A. <iostream>
+B. <string>
+C. <vector>
+D. <set>
+Correct Answer: D
+
+Q51 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << 2 + 3;
+A. 5
+B. 23
+C. 6
+D. Error
+Correct Answer: A
+
+Q52 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << 2 + 3 * 4;
+A. 20
+B. 14
+C. 24
+D. 10
+Correct Answer: B
+
+Q53 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << 10 % 3;
+A. 3
+B. 0
+C. 1
+D. 10
+Correct Answer: C
+
+Q54 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=7; cout << x/2;
+A. 3.5
+B. 4
+C. 2
+D. 3
+Correct Answer: D
+
+Q55 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=4; cout << x++;
+A. 4
+B. 5
+C. 3
+D. Error
+Correct Answer: A
+
+Q56 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=4; cout << ++x;
+A. 4
+B. 5
+C. 6
+D. Error
+Correct Answer: B
+
+Q57 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int a[]={2,4,6}; cout << a[1];
+A. 2
+B. 6
+C. 4
+D. 1
+Correct Answer: C
+
+Q58 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (5>2);
+A. 0
+B. true
+C. false
+D. 1
+Correct Answer: D
+
+Q59 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+for(int i=0;i<3;i++) cout << i;
+A. 012
+B. 123
+C. 0123
+D. 321
+Correct Answer: A
+
+Q60 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=5; x+=2; cout << x;
+A. 5
+B. 7
+C. 10
+D. Error
+Correct Answer: B
+
+Q61 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (3 == 3.0);
+A. 0
+B. 3.0
+C. 1
+D. Error
+Correct Answer: C
+
+Q62 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+string s="Hi"; cout << s+"!";
+A. Hi !
+B. Error
+C. H!
+D. Hi!
+Correct Answer: D
+
+Q63 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (8/3);
+A. 2
+B. 2.66
+C. 3
+D. Error
+Correct Answer: A
+
+Q64 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (true && false);
+A. 1
+B. 0
+C. true
+D. Error
+Correct Answer: B
+
+Q65 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+string s="CODE"; cout << s[1];
+A. C
+B. D
+C. O
+D. 0
+Correct Answer: C
+
+Q66 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=10; cout << (x>5?1:0);
+A. 10
+B. 5
+C. 0
+D. 1
+Correct Answer: D
+
+Q67 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (2*3+1);
+A. 7
+B. 8
+C. 9
+D. 6
+Correct Answer: A
+
+Q68 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int a=1,b=2; cout << a+b;
+A. 12
+B. 3
+C. 2
+D. Error
+Correct Answer: B
+
+Q69 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (5 != 5);
+A. 1
+B. 5
+C. 0
+D. Error
+Correct Answer: C
+
+Q70 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+for(char c='A';c<'C';++c) cout<<c;
+A. ABC
+B. BC
+C. AA
+D. AB
+Correct Answer: D
+
+Q71 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (9%4);
+A. 1
+B. 2
+C. 3
+D. 4
+Correct Answer: A
+
+Q72 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+int x=3; if(x>2) cout<<"Yes"; else cout<<"No";
+A. No
+B. Yes
+C. 3
+D. Error
+Correct Answer: B
+
+Q73 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (int)3.9;
+A. 3.9
+B. 4
+C. 3
+D. Error
+Correct Answer: C
+
+Q74 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (2 << 1);
+A. 2
+B. 3
+C. 1
+D. 4
+Correct Answer: D
+
+Q75 [Output-based MCQ; 3 marks if selected in test]
+What is the output?
+cout << (false || true);
+A. 1
+B. 0
+C. true
+D. Error
+Correct Answer: A
+
+Q76 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: cout _____ "Hello";
+A. >>
+B. <<
+C. ->
+D. ::
+Correct Answer: B
+
+Q77 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: cin _____ age;
+A. <<
+B. ==
+C. >>
+D. ::
+Correct Answer: C
+
+Q78 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ Student { };
+A. object
+B. structclass
+C. define
+D. class
+Correct Answer: D
+
+Q79 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ : makes members accessible from outside
+A. public
+B. private
+C. protected
+D. internal
+Correct Answer: A
+
+Q80 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: Student_____ { } declares a constructor
+A. []
+B. ()
+C. {}
+D. <>
+Correct Answer: B
+
+Q81 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: obj_____x accesses member x through object
+A. ->
+B. ::
+C. .
+D. &
+Correct Answer: C
+
+Q82 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: p_____x accesses member x through pointer
+A. .
+B. ::
+C. &
+D. ->
+Correct Answer: D
+
+Q83 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: int* p = _____ int(5);
+A. new
+B. malloc
+C. alloc
+D. create
+Correct Answer: A
+
+Q84 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ p; releases memory from scalar new
+A. free
+B. delete
+C. remove
+D. clear
+Correct Answer: B
+
+Q85 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: using namespace _____;
+A. cpp
+B. global
+C. std
+D. iostream
+Correct Answer: C
+
+Q86 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ <iostream> includes iostream
+A. #import
+B. using
+C. include
+D. #include
+Correct Answer: D
+
+Q87 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ void show(); declares virtual function
+A. virtual
+B. dynamic
+C. override
+D. abstract
+Correct Answer: A
+
+Q88 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: class Dog : _____ Animal { };
+A. extends
+B. public
+C. inherits
+D. implements
+Correct Answer: B
+
+Q89 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ int limit = 10;
+A. fixed
+B. final
+C. const
+D. immutable
+Correct Answer: C
+
+Q90 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ name = "Sam";
+A. text
+B. charstring
+C. StringType
+D. std::string
+Correct Answer: D
+
+Q91 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ { risky(); } catch (...) { }
+A. try
+B. check
+C. throw
+D. except
+Correct Answer: A
+
+Q92 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ 1; throws an exception
+A. raise
+B. throw
+C. catch
+D. except
+Correct Answer: B
+
+Q93 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: vector<int> v _____ {1,2,3};
+A. :
+B. ->
+C. =
+D. ==
+Correct Answer: C
+
+Q94 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: std::_____(v.begin(),v.end()); sorts a range
+A. order
+B. arrange
+C. sorted
+D. sort
+Correct Answer: D
+
+Q95 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: Student_____count accesses static member
+A. ::
+B. .
+C. ->
+D. &
+Correct Answer: A
+
+Q96 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: void show() _____ marks overriding function
+A. overload
+B. override
+C. replace
+D. virtualize
+Correct Answer: B
+
+Q97 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: virtual void draw() _____ 0;
+A. ==
+B. :
+C. =
+D. ->
+Correct Answer: C
+
+Q98 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____ <vector> includes vector
+A. #import
+B. using
+C. include
+D. #include
+Correct Answer: D
+
+Q99 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: v._____ returns vector size
+A. size()
+B. length()
+C. count()
+D. len()
+Correct Answer: A
+
+Q100 [Fill-in-the-code MCQ; 5 marks if selected in test]
+Fill in the code: _____; exits a loop
+A. stop
+B. break
+C. continue
+D. pass
+Correct Answer: B

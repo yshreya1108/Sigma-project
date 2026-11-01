@@ -1,0 +1,844 @@
+PYTHON QUESTION BANK — 100 QUESTIONS
+Question bank distribution: 50 Normal MCQs, 25 Output-based MCQs, 25 Fill-in-the-code MCQs.
+The actual test should randomly select 11 Normal MCQs, 3 Output-based MCQs, and 1 Fill-in-the-code MCQ.
+Test scoring: Normal = 1 mark each; Output-based = 3 marks each; Fill-in-the-code = 5 marks. Total = 25 marks.
+Passing score = 15/25 (60%). Suggested time = 20 minutes.
+IMPORTANT: Correct answers are included for the program to calculate results. Keep the answer key hidden from test takers.
+
+Q1 [Normal MCQ (1 mark in test)]
+Which keyword is used to define a function in Python?
+A. function
+B. def
+C. fun
+D. define
+Correct Answer: B
+
+Q2 [Normal MCQ (1 mark in test)]
+Which symbol is used for a single-line comment in Python?
+A. //
+B. #
+C. /*
+D. --
+Correct Answer: B
+
+Q3 [Normal MCQ (1 mark in test)]
+Which data type stores True or False?
+A. int
+B. str
+C. bool
+D. float
+Correct Answer: C
+
+Q4 [Normal MCQ (1 mark in test)]
+Which function displays output on the screen?
+A. input()
+B. print()
+C. display()
+D. write()
+Correct Answer: B
+
+Q5 [Normal MCQ (1 mark in test)]
+Which function reads input from the user?
+A. scan()
+B. read()
+C. input()
+D. get()
+Correct Answer: C
+
+Q6 [Normal MCQ (1 mark in test)]
+Which of these is a mutable data type?
+A. tuple
+B. str
+C. list
+D. int
+Correct Answer: C
+
+Q7 [Normal MCQ (1 mark in test)]
+Which brackets are used to create a tuple?
+A. []
+B. {}
+C. ()
+D. <>
+Correct Answer: C
+
+Q8 [Normal MCQ (1 mark in test)]
+What is the correct file extension for a Python file?
+A. .pt
+B. .py
+C. .python
+D. .pyt
+Correct Answer: B
+
+Q9 [Normal MCQ (1 mark in test)]
+Which operator is used for exponentiation in Python?
+A. ^
+B. **
+C. //
+D. %%
+Correct Answer: B
+
+Q10 [Normal MCQ (1 mark in test)]
+Which keyword is used for a conditional branch after if?
+A. elseif
+B. elif
+C. else if
+D. then
+Correct Answer: B
+
+Q11 [Normal MCQ (1 mark in test)]
+Which loop is commonly used to iterate over a sequence?
+A. repeat
+B. foreach
+C. for
+D. loop
+Correct Answer: C
+
+Q12 [Normal MCQ (1 mark in test)]
+Which keyword immediately exits a loop?
+A. stop
+B. exit
+C. break
+D. return
+Correct Answer: C
+
+Q13 [Normal MCQ (1 mark in test)]
+Which keyword skips the current loop iteration?
+A. pass
+B. skip
+C. continue
+D. next
+Correct Answer: C
+
+Q14 [Normal MCQ (1 mark in test)]
+Which built-in function returns the number of items in a sequence?
+A. size()
+B. count()
+C. len()
+D. length()
+Correct Answer: C
+
+Q15 [Normal MCQ (1 mark in test)]
+Which method adds one item to the end of a list?
+A. add()
+B. append()
+C. push()
+D. insert_end()
+Correct Answer: B
+
+Q16 [Normal MCQ (1 mark in test)]
+Which method removes and returns the last item of a list by default?
+A. delete()
+B. remove()
+C. pop()
+D. discard()
+Correct Answer: C
+
+Q17 [Normal MCQ (1 mark in test)]
+Which data type stores key-value pairs?
+A. list
+B. tuple
+C. dictionary
+D. set
+Correct Answer: C
+
+Q18 [Normal MCQ (1 mark in test)]
+Which brackets are used to create a dictionary literal?
+A. []
+B. ()
+C. {}
+D. <>
+Correct Answer: C
+
+Q19 [Normal MCQ (1 mark in test)]
+Which collection automatically removes duplicate values?
+A. list
+B. tuple
+C. set
+D. string
+Correct Answer: C
+
+Q20 [Normal MCQ (1 mark in test)]
+What is the index of the first element in a Python list?
+A. 0
+B. 1
+C. -1
+D. Depends on list
+Correct Answer: A
+
+Q21 [Normal MCQ (1 mark in test)]
+Which operator checks equality?
+A. =
+B. ==
+C. !=
+D. ===
+Correct Answer: B
+
+Q22 [Normal MCQ (1 mark in test)]
+Which operator means 'not equal to'?
+A. <>
+B. !==
+C. !=
+D. not=
+Correct Answer: C
+
+Q23 [Normal MCQ (1 mark in test)]
+Which keyword is used to create a class?
+A. object
+B. class
+C. struct
+D. define
+Correct Answer: B
+
+Q24 [Normal MCQ (1 mark in test)]
+Which keyword is used to create an object method's first parameter by convention?
+A. this
+B. self
+C. me
+D. current
+Correct Answer: B
+
+Q25 [Normal MCQ (1 mark in test)]
+Which special method is commonly used to initialize an object?
+A. __start__
+B. __create__
+C. __init__
+D. __newobj__
+Correct Answer: C
+
+Q26 [Normal MCQ (1 mark in test)]
+Which keyword handles an exception?
+A. catch
+B. except
+C. error
+D. handle
+Correct Answer: B
+
+Q27 [Normal MCQ (1 mark in test)]
+Which block usually runs whether an exception occurs or not?
+A. else
+B. finally
+C. except
+D. raise
+Correct Answer: B
+
+Q28 [Normal MCQ (1 mark in test)]
+Which keyword is used to import a module?
+A. include
+B. using
+C. import
+D. module
+Correct Answer: C
+
+Q29 [Normal MCQ (1 mark in test)]
+Which standard module provides mathematical functions such as sqrt()?
+A. random
+B. math
+C. statistics
+D. numbers
+Correct Answer: B
+
+Q30 [Normal MCQ (1 mark in test)]
+Which function converts a value to an integer when possible?
+A. str()
+B. float()
+C. int()
+D. integer()
+Correct Answer: C
+
+Q31 [Normal MCQ (1 mark in test)]
+Which function converts a value to a string?
+A. string()
+B. str()
+C. text()
+D. char()
+Correct Answer: B
+
+Q32 [Normal MCQ (1 mark in test)]
+What does range(5) generate when iterated?
+A. 1 to 5
+B. 0 to 5
+C. 0 to 4
+D. 1 to 4
+Correct Answer: C
+
+Q33 [Normal MCQ (1 mark in test)]
+Which keyword returns a value from a function?
+A. send
+B. yield only
+C. return
+D. give
+Correct Answer: C
+
+Q34 [Normal MCQ (1 mark in test)]
+Which value represents the absence of a value in Python?
+A. null
+B. None
+C. nil
+D. void
+Correct Answer: B
+
+Q35 [Normal MCQ (1 mark in test)]
+Which operator performs floor division?
+A. /
+B. //
+C. %
+D. **
+Correct Answer: B
+
+Q36 [Normal MCQ (1 mark in test)]
+Which operator gives the remainder?
+A. /
+B. //
+C. %
+D. rem
+Correct Answer: C
+
+Q37 [Normal MCQ (1 mark in test)]
+Which string method converts text to lowercase?
+A. lower()
+B. small()
+C. casefolding()
+D. tolower()
+Correct Answer: A
+
+Q38 [Normal MCQ (1 mark in test)]
+Which string method removes whitespace from both ends by default?
+A. remove()
+B. strip()
+C. trim()
+D. clean()
+Correct Answer: B
+
+Q39 [Normal MCQ (1 mark in test)]
+Which keyword is used to define an anonymous function?
+A. lambda
+B. anon
+C. def
+D. func
+Correct Answer: A
+
+Q40 [Normal MCQ (1 mark in test)]
+Which built-in function returns the largest item in an iterable?
+A. top()
+B. largest()
+C. max()
+D. high()
+Correct Answer: C
+
+Q41 [Normal MCQ (1 mark in test)]
+Which built-in function returns the smallest item in an iterable?
+A. min()
+B. small()
+C. lowest()
+D. least()
+Correct Answer: A
+
+Q42 [Normal MCQ (1 mark in test)]
+Which statement is used to do nothing temporarily?
+A. skip
+B. continue
+C. pass
+D. empty
+Correct Answer: C
+
+Q43 [Normal MCQ (1 mark in test)]
+Which collection is ordered and immutable?
+A. list
+B. set
+C. tuple
+D. dictionary
+Correct Answer: C
+
+Q44 [Normal MCQ (1 mark in test)]
+Which method can check whether a string starts with given text?
+A. begins()
+B. startswith()
+C. start()
+D. first()
+Correct Answer: B
+
+Q45 [Normal MCQ (1 mark in test)]
+Which keyword is used to test membership in a sequence or collection?
+A. has
+B. in
+C. inside
+D. contains
+Correct Answer: B
+
+Q46 [Normal MCQ (1 mark in test)]
+Which operator performs logical AND?
+A. &&
+B. &
+C. and
+D. AND()
+Correct Answer: C
+
+Q47 [Normal MCQ (1 mark in test)]
+Which operator performs logical OR?
+A. ||
+B. |
+C. or
+D. OR()
+Correct Answer: C
+
+Q48 [Normal MCQ (1 mark in test)]
+Which function can provide a sequence of indexes and items while looping?
+A. items()
+B. enumerate()
+C. indexall()
+D. zipindex()
+Correct Answer: B
+
+Q49 [Normal MCQ (1 mark in test)]
+Which dictionary method returns key-value pairs?
+A. keys()
+B. values()
+C. pairs()
+D. items()
+Correct Answer: D
+
+Q50 [Normal MCQ (1 mark in test)]
+Which function opens a file in Python?
+A. file()
+B. open()
+C. readfile()
+D. fopen()
+Correct Answer: B
+
+Q51 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(2 + 3 * 4)
+A. 20
+B. 14
+C. 24
+D. Error
+Correct Answer: B
+
+Q52 [Output-based MCQ (3 marks in test)]
+What is the output?
+x = 7
+print(x // 2)
+A. 3.5
+B. 4
+C. 3
+D. 2
+Correct Answer: C
+
+Q53 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(10 % 3)
+A. 1
+B. 3
+C. 0
+D. 10
+Correct Answer: A
+
+Q54 [Output-based MCQ (3 marks in test)]
+What is the output?
+print('Py' + 'thon')
+A. Py thon
+B. Python
+C. Py+thon
+D. Error
+Correct Answer: B
+
+Q55 [Output-based MCQ (3 marks in test)]
+What is the output?
+print('ha' * 3)
+A. hahaha
+B. ha3
+C. ha ha ha
+D. Error
+Correct Answer: A
+
+Q56 [Output-based MCQ (3 marks in test)]
+What is the output?
+a = [1, 2, 3]
+print(a[0])
+A. 1
+B. 2
+C. 3
+D. 0
+Correct Answer: A
+
+Q57 [Output-based MCQ (3 marks in test)]
+What is the output?
+a = [4, 5, 6]
+print(a[-1])
+A. 4
+B. 5
+C. 6
+D. -1
+Correct Answer: C
+
+Q58 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(len('hello'))
+A. 4
+B. 5
+C. 6
+D. Error
+Correct Answer: B
+
+Q59 [Output-based MCQ (3 marks in test)]
+What is the output?
+for i in range(3):
+    print(i, end=' ')
+A. 1 2 3
+B. 0 1 2
+C. 0 1 2 3
+D. 3 2 1
+Correct Answer: B
+
+Q60 [Output-based MCQ (3 marks in test)]
+What is the output?
+x = 5
+x += 2
+print(x)
+A. 5
+B. 7
+C. 10
+D. Error
+Correct Answer: B
+
+Q61 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(bool(0))
+A. True
+B. False
+C. 0
+D. None
+Correct Answer: B
+
+Q62 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(3 == 3.0)
+A. True
+B. False
+C. 3.0
+D. Error
+Correct Answer: A
+
+Q63 [Output-based MCQ (3 marks in test)]
+What is the output?
+print('python'[1])
+A. p
+B. y
+C. t
+D. h
+Correct Answer: B
+
+Q64 [Output-based MCQ (3 marks in test)]
+What is the output?
+print([1, 2] + [3])
+A. [1, 2, 3]
+B. [1, 2][3]
+C. [4, 2]
+D. Error
+Correct Answer: A
+
+Q65 [Output-based MCQ (3 marks in test)]
+What is the output?
+a = [1, 2]
+a.append(3)
+print(a)
+A. [1, 2]
+B. [1, 2, 3]
+C. [3, 1, 2]
+D. Error
+Correct Answer: B
+
+Q66 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(list(range(2, 6)))
+A. [2, 3, 4, 5]
+B. [2, 3, 4, 5, 6]
+C. [1, 2, 3, 4, 5]
+D. range(2, 6)
+Correct Answer: A
+
+Q67 [Output-based MCQ (3 marks in test)]
+What is the output?
+x = '10'
+print(x * 2)
+A. 20
+B. 1010
+C. 10 10
+D. Error
+Correct Answer: B
+
+Q68 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(5 > 2 and 2 > 1)
+A. True
+B. False
+C. 1
+D. Error
+Correct Answer: A
+
+Q69 [Output-based MCQ (3 marks in test)]
+What is the output?
+d = {'a': 1, 'b': 2}
+print(d['b'])
+A. a
+B. 1
+C. 2
+D. b
+Correct Answer: C
+
+Q70 [Output-based MCQ (3 marks in test)]
+What is the output?
+print('Hello'.lower())
+A. hello
+B. HELLO
+C. Hello
+D. Error
+Correct Answer: A
+
+Q71 [Output-based MCQ (3 marks in test)]
+What is the output?
+x = [10, 20, 30]
+print(x[1:])
+A. [10, 20]
+B. [20, 30]
+C. [10, 20, 30]
+D. [30]
+Correct Answer: B
+
+Q72 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(2 ** 3)
+A. 6
+B. 8
+C. 9
+D. Error
+Correct Answer: B
+
+Q73 [Output-based MCQ (3 marks in test)]
+What is the output?
+for ch in 'ab':
+    print(ch, end='-')
+A. a-b-
+B. ab-
+C. a b
+D. Error
+Correct Answer: A
+
+Q74 [Output-based MCQ (3 marks in test)]
+What is the output?
+x = 4
+print('Even' if x % 2 == 0 else 'Odd')
+A. Even
+B. Odd
+C. 4
+D. Error
+Correct Answer: A
+
+Q75 [Output-based MCQ (3 marks in test)]
+What is the output?
+print(type([]).__name__)
+A. list
+B. dict
+C. tuple
+D. array
+Correct Answer: A
+
+Q76 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank: _____ name = input('Name: ')
+A. string
+B. let
+C. No keyword is required
+D. var
+Correct Answer: C
+
+Q77 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to define a function: _____ add(a, b):
+A. function
+B. def
+C. fun
+D. method
+Correct Answer: B
+
+Q78 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to start an if statement: if x _____ 10:
+A. =
+B. ===
+C. >
+D. equals
+Correct Answer: C
+
+Q79 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to add item x to list a: a._____(x)
+A. append
+B. add_item
+C. push_back
+D. attach
+Correct Answer: A
+
+Q80 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to get the length of list a: _____(a)
+A. count
+B. len
+C. size
+D. length
+Correct Answer: B
+
+Q81 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to import the math module: _____ math
+A. include
+B. import
+C. using
+D. load
+Correct Answer: B
+
+Q82 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to loop through items: for item _____ items:
+A. at
+B. in
+C. of
+D. on
+Correct Answer: B
+
+Q83 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to handle an exception: _____ ValueError:
+A. catch
+B. except
+C. error
+D. handle
+Correct Answer: B
+
+Q84 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to return a value from a function: _____ result
+A. give
+B. yielded
+C. return
+D. send
+Correct Answer: C
+
+Q85 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to create an empty list: values = _____
+A. ()
+B. {}
+C. []
+D. <>
+Correct Answer: C
+
+Q86 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to create a dictionary: person = _____
+A. []
+B. ()
+C. {}
+D. <>
+Correct Answer: C
+
+Q87 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to check if x is in items: if x _____ items:
+A. inside
+B. contains
+C. in
+D. has
+Correct Answer: C
+
+Q88 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to get remainder: remainder = 10 _____ 3
+A. /
+B. //
+C. %
+D. **
+Correct Answer: C
+
+Q89 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to get floor division: result = 9 _____ 2
+A. /
+B. //
+C. %
+D. **
+Correct Answer: B
+
+Q90 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to make text lowercase: text._____
+A. lower()
+B. tolower()
+C. small()
+D. case()
+Correct Answer: A
+
+Q91 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to remove spaces from both ends: text._____
+A. trim()
+B. strip()
+C. remove_space()
+D. clean()
+Correct Answer: B
+
+Q92 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to open a file: f = _____('data.txt', 'r')
+A. file
+B. open
+C. read
+D. fopen
+Correct Answer: B
+
+Q93 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to define a class: _____ Student:
+A. object
+B. class
+C. struct
+D. define
+Correct Answer: B
+
+Q94 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank for the object initializer: def _____(self):
+A. __start__
+B. __init__
+C. __create__
+D. init
+Correct Answer: B
+
+Q95 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to skip to next loop iteration: _____
+A. break
+B. pass
+C. continue
+D. return
+Correct Answer: C
+
+Q96 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to stop a loop: _____
+A. break
+B. pass
+C. continue
+D. next
+Correct Answer: A
+
+Q97 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to create an anonymous function: f = _____ x: x * 2
+A. def
+B. lambda
+C. function
+D. func
+Correct Answer: B
+
+Q98 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to convert input text to integer: age = _____(input())
+A. str
+B. float
+C. int
+D. number
+Correct Answer: C
+
+Q99 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to access the first list item: values[_____]
+A. 1
+B. 0
+C. -0.5
+D. first
+Correct Answer: B
+
+Q100 [Fill-in-the-code MCQ (5 marks in test)]
+Fill in the blank to run code only when condition is false: _____:
+A. if false
+B. else
+C. otherwise
+D. elif false
+Correct Answer: B
