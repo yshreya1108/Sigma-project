@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-signature {
+    font-family: 'Caveat', 'Dancing Script', 'Segoe Script', 'Brush Script MT', cursive;
+  }
+}
