@@ -1,98 +1,78 @@
-# Sigma-Project
+# SkillMatch — Student Skill Exchange & Project Team Platform
 
-# SkillMatch – Student Skill Exchange & Project Team Matcher
+**Graphic Era Deemed to be University • Course B.Tech DSCPP-III-2026-T383**  
+*Website created by ShishirTB4146*
 
-## About the Project
-SkillMatch is a C++-based application that helps students form suitable project teams based on their technical skills and project requirements. It calculates compatibility scores, ranks matching students, and suggests teams.
+---
 
-## Objectives
-- Student registration and profile management
-- Project creation and skill requirement entry
-- Exact and related skill matching
-- Compatibility score calculation
-- Ranking of matching students
-- Team formation and suggestions
-- File-based data storage
+## Quick Start (Run Locally on Your Computer)
 
-## Features
-- **Student Module:** Manages student details, skills, interests, and availability.
-- **Project Module:** Stores project details, required skills, team size, and deadline.
-- **Matching Module:** Calculates compatibility scores and ranks students.
-- **Graph Module:** Represents relationships between related skills.
-- **Team Module:** Suggests team members based on matching results.
-- **Data Storage Module:** Saves student and project information in text files.
+1. **Install Node.js** (v18+ recommended) from [nodejs.org](https://nodejs.org/).
+2. **Extract this ZIP archive** and open a terminal inside the project folder:
+   ```bash
+   cd SkillMatch-Source-Code
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+5. Open **`http://localhost:3000`** in your browser.
 
-## Technologies Used
-- C++
-- Object-Oriented Programming (OOP)
-- Data Structures
-- STL (Standard Template Library)
-- File Handling
-- Code::Blocks IDE
+---
 
-## Data Structures Used
-| Data Structure | Purpose |
-|---|---|
-| Vector | Stores students, projects, and skills |
-| Map | Stores skill relationships |
-| Graph | Represents relationships between skills |
-| Priority Queue | Ranks matching students |
-| Sorting | Organizes matching results, where implemented |
+## Portal Access & Admin Credentials
 
-## Matching Methodology
-- Exact skill match: 100 points
-- Related skill match: 75 points
-- No skill match: 0 points
+The Opening Home Page provides three role portals:
 
-The compatibility score is calculated from the skill-matching results according to the implemented scoring logic.
+1. **Be a Team Member**: Register a new student account with your skills and interests (or sign in to an existing student account). Automatically matches you with all 105+ project teams using the C++ Graph & Priority Queue engine.
+2. **Be a Team Leader**: Create a new project & team with full technical specifications (or sign in as an existing team leader, e.g., `shreya.yadav.cs@geu.ac.in` for Team Sigma).
+3. **Admin Control Portal**:
+   - **Username**: `adminsm$4146`
+   - **Password**: `adminsrsad@414.`
+
+---
 
 ## Project Structure
+
 ```text
-SkillMatch/
-├── main.cpp
-├── StudentModule.h
-├── StudentModule.cpp
-├── ProjectModule.h
-├── ProjectModule.cpp
-├── MatchingModule.h
-├── MatchingModule.cpp
-├── TeamModule.h
-├── TeamModule.cpp
-├── GraphModule.h
-├── GraphModule.cpp
-├── DataStorage.h
-├── DataStorage.cpp
-└── README.md
+├── index.html                  # HTML entry point & Google Fonts (Caveat, Dancing Script)
+├── package.json                # Dependencies & scripts (React 19, Vite, Tailwind CSS, Lucide)
+├── tsconfig.json               # TypeScript configuration
+├── vite.config.ts              # Vite bundler configuration
+└── src/
+    ├── main.tsx                # React DOM root
+    ├── index.css               # Tailwind CSS v4 & signature font utilities
+    ├── App.tsx                 # Main layout, navigation routing, modals & persistent footer
+    ├── context/
+    │   └── AppContext.tsx      # Global state, localStorage persistence & role management
+    ├── lib/
+    │   ├── types.ts            # TypeScript interfaces for Students, Teams, Applications, Logs
+    │   ├── initialData.ts      # 105+ project teams (Team Sigma led by Shreya Yadav) & student profiles
+    │   ├── graphEngine.ts      # C++ STL Adjacency List Graph & Priority Queue matchmaking engine
+    │   ├── portalAuthEngine.ts # Private account/activity vault & deep team technical specs generator
+    │   ├── assessmentEngine.ts # Proctored C/C++ skill assessment & anti-cheat engine
+    │   ├── learningPathEngine.ts # C++ Beginner-to-Project-Ready learning path engine
+    │   └── streakEngine.ts     # Daily coding & collaboration streak tracker engine
+    └── components/
+        ├── HomePage.tsx                # Opening page with 3 role portals, live metrics & 105 teams
+        ├── Navbar.tsx                  # Top navigation bar
+        ├── TeamDetailPage.tsx          # Dedicated full-page deep project architecture & roster view
+        ├── TeamExplorer.tsx            # Searchable/filterable directory of all 105+ teams
+        ├── CandidateDashboard.tsx      # Student dashboard with matched teams & learning path
+        ├── CandidateLearningPath.tsx   # Interactive C++ learning path visualizer
+        ├── CandidateStreakTracker.tsx  # Daily activity streak & milestone tracker
+        ├── TeamLeaderDashboard.tsx     # Team leader project & applicant management portal
+        ├── AdminDashboard.tsx          # Supreme Admin control panel for all 105+ teams & accounts
+        ├── SkillAssessment.tsx         # Proctored C/C++ assessment environment
+        ├── CppVisualizer.tsx           # Interactive C++ Graph & Priority Queue algorithm visualizer
+        ├── ApplyTeamModal.tsx          # Team application modal
+        ├── ApplicantChatModal.tsx      # Real-time 1-on-1 leader/applicant chat modal
+        ├── StudentProfileModal.tsx     # Student profile inspector
+        ├── StudentRegistrationModal.tsx# Quick student registration modal
+        ├── LeaderInvitationPopup.tsx   # Real-time team leader notification popup
+        └── UserAvatar.tsx              # Emoji & avatar badge component
 ```
-
-## How to Run
-1. Clone or download the repository.
-2. Open the `.cbp` project file in Code::Blocks.
-3. Ensure all source and header files are included.
-4. Build and run the project.
-5. Follow the console menu.
-
-Alternatively, compile using a compatible C++ compiler:
-
-```bash
-g++ main.cpp StudentModule.cpp ProjectModule.cpp MatchingModule.cpp TeamModule.cpp GraphModule.cpp DataStorage.cpp -o SkillMatch
-```
-
-## Team Members
-**Team Name:** Code Crew  
-**Team ID:** DSCPP-III-T383
-
-- **Shreya Yadav:** Graph Module, Team Module, and Main Program Integration
-- **Shishir Dwivedi:** Student Module
-- **Shiwansh Mishra:** Matching Module
-- **Simran Kundiyal:** Project Module and Data Storage Module
-
-## Future Enhancements
-- Develop a user-friendly website.
-- Improve skill matching and compatibility scoring.
-- Enhance team formation using complementary skills.
-- Improve data storage and validation.
-- Complete further integration and testing.
-
-## Academic Context
-Developed as part of the Project-Based Learning (PBL) coursework for Data Structures and Object-Oriented Programming using C++.
