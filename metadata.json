@@ -1,0 +1,6 @@
+{
+  "name": "SkillMatch - Student Skill Exchange & Team Matcher",
+  "description": "Student skill exchange, C/C++ skill assessment with anti-cheat verification, and project team matcher with multi-role dashboards and real-time chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
