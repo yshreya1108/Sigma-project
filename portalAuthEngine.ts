@@ -20,7 +20,7 @@ export function verifyAdminCredentials(username: string, password: string): bool
 }
 
 /**
- * Enforces strict privacy visibility rule:
+ * Enforces strict privacy visibility rule: 
  * When a user creates an account in any option (Team Member or Team Leader),
  * their stored data and every activity is ONLY visible to:
  * 1. The person who created that account (viewerUserId === targetOwnerId)
