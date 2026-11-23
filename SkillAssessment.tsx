@@ -42,7 +42,7 @@ export const SkillAssessment: React.FC = () => {
   // Results
   const [isEvaluating, setIsEvaluating] = useState<boolean>(false);
   const [evaluationResult, setEvaluationResult] = useState<CodeEvaluationResult | null>(null);
-  const [submittedSuccess, setSubmittedSuccess] = useState<boolean>(false);
+  const [submittedSuccess, setSubmittedSuccess] = useState<boolean>(false); 
 
   // Switch challenge resets
   useEffect(() => {
