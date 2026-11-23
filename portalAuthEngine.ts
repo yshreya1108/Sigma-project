@@ -32,7 +32,7 @@ export function canViewUserAccountAndActivity(params: {
   viewerUserId: string;
   targetOwnerId: string;
 }): boolean {
-  const { viewerRole, isAdminAuthenticated, viewerUserId, targetOwnerId } = params;
+  const { viewerRole, isAdminAuthenticated, viewerUserId,  targetOwnerId } = params;
   if (viewerRole === 'ADMIN' && isAdminAuthenticated) {
     return true;
   }
